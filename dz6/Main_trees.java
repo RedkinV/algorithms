@@ -13,7 +13,7 @@ public class Main_trees {
         for (int i = 0; i < 6; i++) {
             bst[i]=new BST<>();
             do {
-                bst[i].put(random.nextInt(100) - 100, "A");
+                bst[i].put(random.nextInt(200) - 100, "A");
             } while (bst[i].depth() < 6);
 
             averDepth=Math.log(bst[i].size())/Math.log(2);
